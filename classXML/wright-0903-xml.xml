@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lyric page sourced from genius.com. Song selection in honor of me finding Under the Pink on vinyl the other day :) -->
+
+<!-- Potential practical use of this formatting:
+a) to analyze how genius makes use of its webpage (lyrical content vs. extra fluff)
+b) to examine how different artists structure their songs
+c) to analyze artists who write pointedly narrative songs -->
+
+<xml>
+    <meta type="background">
+        <line>
+            <title>Cornflake Girl</title>
+        </line>
+        <line>
+            <musician role="performer">Tori Amos</musician>
+        </line>
+        <line>Producers <musician role="production">Eric Rosse</musician> &amp; <musician
+                role="production">Tori Amos</musician></line>
+        <line><track n="17"/> on <album>A Piano: The Collection</album></line>
+        <line>Jan. 10, 1994</line>
+        <line>1 viewer</line>
+        <line>139.1K views</line>
+        <line>25 Contributors</line>
+        <line><title>Cornflake Girl</title> Lyrics</line>
+        <trivia>Tori Amos was in a 1987 commercial for Kellogg’s Just Right, which had cornflakes
+            and raisins in it. Her label, Atlantic, later released Cornflakes boxes with Amos’s
+            picture on them, which are now collectibles.</trivia>
+    </meta>
+
+    <!-- "Role" attribute denotes musician's role within the context of which they appear. Tori is tagged as songwriter & producer above because those are her credits, but will henceforth be marked as a vocalist because her name is attatched to lyrical content-->
+
+    <song>
+        <segment>
+            <header section="verse" n="1" vocalist="ToriAmos"/>
+            <line>Never was a <title><character>cornflake girl</character></title>
+            </line>
+            <line>Thought that was a good solution </line>
+            <line>Hanging with the <character>raisin girls</character>
+            </line>
+            <line>She's gone to the other side</line>
+            <line>Giving us a yo-heave-ho</line>
+            <line>Things are getting kind of gross</line>
+            <line>And I go at sleepy time </line>
+        </segment>
+
+        <segment>
+            <header section="prechorus" n="1" vocalist="ToriAmos"/>
+            <line>This is not really, <adlib>this, a-this</adlib></line>
+            <line>This is not really happening</line>
+        </segment>
+
+        <segment>
+            <header section="chorus" n="1" vocalist="ToriAmos"/>
+            <line>You bet your life it is</line>
+            <line>You bet your life it is</line>
+            <line>Oh honey, you bet your life</line>
+            <line>It's a peel out the watchword</line>
+            <line>Just peel out the watchword</line>
+        </segment>
+
+        <segment>
+            <header section="verse" n="2" vocalist="ToriAmos"/>
+            <line>She knows what's going on</line>
+            <line>Seems we got a cheaper feel now</line>
+            <line>All the sweeteaze are gone</line>
+            <line>Gone to the other side</line>
+            <line>With my encyclopedia</line>
+            <line>They musta paid her a nice price</line>
+            <line>She's putting on her string bean love</line>
+        </segment>
+
+        <meta type="ad">
+            <line>See upcoming rock shows</line>
+            <line>Get tickets for your favorite artists</line>
+            <line>You might also like</line>
+            <line>
+                <title>Candy Necklace</title>
+                <musician role="performer">Lana Del Rey</musician>
+            </line>
+            <line>
+                <title>Margaret</title>
+                <musician role="performer">Lana Del Rey</musician>
+            </line>
+            <line>
+                <title>Peppers</title>
+                <musician role="performer">Lana Del Rey</musician>
+            </line>
+        </meta>
+
+        <segment>
+            <header section="prechorus" n="2" vocalist="ToriAmos"/>
+            <line>This is not really, <adlib>this, this</adlib></line>
+            <line>This is not really happening></line>
+        </segment>
+
+        <segment>
+            <header section="chorus" n="2" vocalist="ToriAmos"/>
+            <line>You bet your life it is</line>
+            <line>You bet your life it is</line>
+            <line>Oh honey, you bet your life</line>
+            <line>It's a peel out the watchword</line>
+            <line>Just peel out the watchword</line>
+        </segment>
+
+        <segment>
+            <header section="interlude" n="1" vocalist="ToriAmos"/>
+            <line>Never was a <title><character>cornflake girl</character></title></line>
+            <line>Thought that was a good solution</line>
+        </segment>
+
+        <segment>
+            <header section="refrain" n="1" vocalist="ToriAmos"/>
+            <line><character>Rabbit</character>, where'd you put the keys girl?</line>
+            <line><character>Rabbit</character>, where'd you put the keys girl?</line>
+            <line><adlib>A-ha</adlib>, <character>Rabbit</character>, where'd you put the
+                keys?</line>
+            <line><adlib>Oh yes</adlib>, <character>Rabbit</character>, where'd you put the
+                keys</line>
+            <line>Where'd you put the keys, girl?</line>
+        </segment>
+
+        <segment>
+            <header section="bridge" n="1" vocalist="ToriAmos MerryClayton"/>
+            <line>And <character>the man with the golden gun</character></line>
+            <line sung="backing">(Don't close this door)</line>
+            <line>Thinks he knows so much</line>
+            <line>Thinks he knows so much, yeah</line>
+            <line sung="backing">(I know it's so easy)</line>
+            <line>And <character>the man with the golden gun</character></line>
+            <line sung="backing">(Don't close this door)</line>
+            <line>Thinks he knows so much</line>
+            <line>Thinks he knows so much, yeah</line>
+            <line sung="backing">(I know it's so easy)</line>
+            <line>And <character>the man with the golden gun</character></line>
+            <line sung="backing">(Don't close this door)</line>
+            <line>Thinks he knows so much</line>
+            <line>Thinks he knows so much, <adlib>yeah</adlib></line>
+            <line sung="backing">(I know it's so easy)</line>
+            <line>And <character>the man with the golden gun</character></line>
+            <line sung="backing">(Don't close this door)</line>
+            <line>Thinks he knows so much</line>
+            <line>Thinks he knows so much, <adlib>yeah</adlib></line>
+            <line sung="backing">(I know it's so easy)</line>
+            <line>
+                <adlib>Yeah</adlib>
+            </line>
+        </segment>
+        <segment>
+            <header section="refrain" n="2" vocalist="ToriAmos"/>
+            <line><character>Rabbit</character>, where'd you put the keys girl?</line>
+            <line>Oh yes, <character>Rabbit</character>, where'd you put the keys girl?</line>
+            <line>All this time, <character>Rabbit</character>, where'd you put the keys, <adlib>oh
+                    yeah</adlib></line>
+            <line><character>Rabbit</character>, where'd you put the keys girl?</line>
+        </segment>
+    </song>
+</xml>
