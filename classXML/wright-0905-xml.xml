@@ -1,66 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-    <!-- -->
-    <meta>Transcript Page 1 of 2 Education and Outreach Division "Ballad of Booker T.," by Langston
-        Hughes, June 1, 1941</meta>
-    <info>BALLAD OF BOOKER T. by Langston Hughes</info>
-    <poem>
-        <line>
-            <booker>Booker T.</booker>
-        </line>
-        <line>Was a practical man.</line>
-        <line>He said, Till the soil</line>
-        <line>And learn from the land.</line>
-        <line>Let down your bucket</line>
-        <line>Where you are.</line>
-        <line>Your fate is here</line>
-        <line>And not afar.</line>
-        <line>To help yourself</line>
-        <line>And your fellow man,</line>
-        <line>Train your head,</line>
-        <line>Your heart, and your hand.</line>
-        <line>For smartness alone's</line>
-        <line>Surely not meet—</line>
-        <line>If you haven't at the same time</line>
-        <line>Got something to eat.</line>
-        <line>Thus at Tuskegee</line>
-        <line>He built a school</line>
-        <line>With book-learning there</line>
-        <line>And the workman's tool.</line>
-        <line>He started out</line>
-        <line>In a simple way—</line>
-        <line>For yesterday</line>
-        <line>Was not today.</line>
-        <line>Sometimes he had</line>
-        <line>Compromise in his talk—</line>
-        <line>For a man must crawl</line>
-        <line>Before he can walk—</line>
-        <line>And in Alabama in '85</line>
-        <line>A joker was lucky</line>
-        <line>To be alive.</line>
-        <line>But <booker>Booker T.</booker></line>
-        <line>Was nobody's fool:</line>
-        <line>You may carve a dream</line>
-        <line>With an humble tool.</line>
-        <line>The tallest tower</line>
-        <line>Can tumble down</line>
-        <line>If it be not rooted</line>
-        <line>In solid ground.</line>
-        <line>So, being a far-seeing</line>
-    </poem>
-    <meta>Transcript Page 2 of 2 Education and Outreach Division</meta>
-    <poem>
-        <line>Practical man,</line>
-        <line>He said, Train your head,</line>
-        <line>Your heart, and your hand.</line>
-        <line>Your fate is here</line>
-        <line>And not afar,</line>
-        <line>So let down your bucket</line>
-        <line>Where you are.</line>
-    </poem>
-    <info>LANGSTON HUGHES <draft it="final"/> Hollow Hills Farm, Monterey, California, June 1,
-        1941.</info>
-    <meta>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.
+    <!-- Kept the copy and pasted data from the transcript I sourced from -->
+    <source link="https://newtfire.org/courses/tutorials/Ballad_of_Booker_trans.pdf"/>
+    <metaWeb>Transcript Page 1 of 2 Education and Outreach Division "Ballad of Booker T.," by
+        Langston Hughes, June 1, 1941</metaWeb>
+    <original>
+        <header>
+            <line>
+                <underlined lineAmnt="double">BALLAD OF BOOKER T.</underlined>
+            </line>
+            <line>by</line>
+            <line>Langston Hughes</line>
+        </header>
+        <poem>
+            <line>
+                <booker>Booker T.</booker>
+            </line>
+            <line>Was a practical man.</line>
+            <line>He said, Till the soil<removed draft="1st" said="."/></line>
+            <line>And learn from the land.</line>
+            <line>
+                <said by="BookerTWashington">Let down your bu<obscured with="stamp"
+                    >cket</obscured></said>
+            </line>
+            <line>
+                <said by="BookerTWashington">Where you are.</said>
+            </line>
+            <line>Your fate is h<obscured with="stamp">ere</obscured></line>
+            <stamp color="red" words="The-Library-Of-Congress" font="print"/>
+            <line>And not afar.</line>
+            <line>To help yoursel<obscured with="stamp">f</obscured></line>
+            <line>And your fellow man,</line>
+            <line>Train your <changed from="heart" draft="1st">head</changed>,</line>
+            <!-- Changes shown physically on the first draft are marked here and compared to the final draft from the transcript. -->
+            <line>Your <changed from="head" draft="1st">heart</changed>, <underlined
+                    lineAmnt="single">and your hand</underlined>.</line>
+            <line>For<removed said="to" draft="1st"/>smartness alone's</line>
+            <line><changed from="is">Surely</changed> not meet—</line>
+            <line>If you haven't at the same time</line>
+            <line>Got something to eat.</line>
+            <line>Thus <changed from="Booker T." draft="1st">at Tuskegee</changed></line>
+            <line>He built a school</line>
+            <line>With book-learning there</line>
+            <line>And the workman's tool.</line>
+            <line>He started out</line>
+            <line>In a simple way—</line>
+            <line>For yesterday</line>
+            <line>Was <underlined lineAmnt="single">not</underlined> today.</line>
+            <line>Sometimes he had</line>
+            <line>Compromise in his talk—</line>
+            <line>For a man must crawl</line>
+            <line>Before he can walk<changed from="." draft="1st">—</changed></line>
+            <line>And in Alabama in '85</line>
+            <line>A joker was lucky</line>
+            <line>To <changed from="stay" draft="1st">be</changed> alive.</line>
+            <line>But<removed said="old" draft="1st"/><booker>Booker T.</booker></line>
+            <line>Was nobody's fool:</line>
+            <line>You may carve a dream</line>
+            <line>With an humble tool.</line>
+            <line>The tallest tower</line>
+            <line>Can tumble down</line>
+            <line>If it be not rooted</line>
+            <line>In solid ground.</line>
+            <line>So, being a far-seeing</line>
+        </poem>
+    </original>
+    <metaWeb>Transcript Page 2 of 2 Education and Outreach Division</metaWeb>
+    <original>
+        <poem>
+            <line>Practical man,</line>
+            <line>He said, Train your head,</line>
+            <line>Your heart, <underlined lineAmnt="single">and your hand</underlined>.</line>
+            <line>Your fate is here</line>
+            <line>And not afar,</line>
+            <line>
+                <said by="BookerTWashington">So let down your bucket</said>
+            </line>
+            <line>
+                <said by="BookerTWashington">Where you are.</said>
+            </line>
+        </poem>
+        <footer>
+            <line><obscured with="signature">Final D</obscured>raft</line>
+            <line><obscured with="signature">Hollow Hills Farm</obscured>,</line>
+            <line>Monterey, <obscured with="signature">C</obscured>alifornia,</line>
+            <line>June 1, 1<obscured with="signature">9</obscured>41.</line>
+            <signature color="black" words="Langston Hughes" font="cursive" />
+        </footer>
+    </original>
+
+    <metaWeb>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.
         (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C.
-    </meta>
+    </metaWeb>
 </xml>
