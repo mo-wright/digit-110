@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
     <!-- Kept the copy and pasted data from the transcript I sourced from -->
+    <!-- CHANGELOG: Changed metadata format, distinguishing between information types and consolidating a few into self-closing elements. -->
+
     <source link="https://newtfire.org/courses/tutorials/Ballad_of_Booker_trans.pdf"/>
-    <metaWeb>Transcript Page 1 of 2 Education and Outreach Division "Ballad of Booker T.," by
-        Langston Hughes, June 1, 1941</metaWeb>
+
+    <metadata>
+        <detail paper="Transcript"/>
+        <pageInfo currentPage="1" totalPage="2"/>
+        <divison div="Education-and-Outreach"/>
+        <title>Ballad of Booker T</title>
+        <author>Langston Hughes,</author>
+        <date yyyy="1941" dd="01" mm="06"/>
+    </metadata>
     <original>
         <header>
             <line>
                 <underlined lineAmnt="double">BALLAD OF BOOKER T.</underlined>
             </line>
             <line>by</line>
-            <line>Langston Hughes</line>
+            <line>
+                <author>Langston Hughes</author>
+            </line>
         </header>
         <poem>
             <line>
@@ -20,8 +31,8 @@
             <line>He said, Till the soil<removed draft="1st" said="."/></line>
             <line>And learn from the land.</line>
             <line>
-                <said by="BookerTWashington">Let down your bu<obscured with="stamp"
-                    >cket</obscured></said>
+                <said by="Booker-T-Washington">Let down your bu<obscured with="stamp"
+                        >cket</obscured></said>
             </line>
             <line>
                 <said by="BookerTWashington">Where you are.</said>
@@ -35,11 +46,11 @@
             <!-- Changes shown physically on the first draft are marked here and compared to the final draft from the transcript. -->
             <line>Your <changed from="head" draft="1st">heart</changed>, <underlined
                     lineAmnt="single">and your hand</underlined>.</line>
-            <line>For<removed said="to" draft="1st"/>smartness alone's</line>
+            <line>For<changed from="to" removed="yes" draft="1st"/>smartness alone's</line>
             <line><changed from="is">Surely</changed> not meet—</line>
             <line>If you haven't at the same time</line>
             <line>Got something to eat.</line>
-            <line>Thus <changed from="Booker T." draft="1st">at Tuskegee</changed></line>
+            <line>Thus <changed from="Booker-T." draft="1st">at Tuskegee</changed></line>
             <line>He built a school</line>
             <line>With book-learning there</line>
             <line>And the workman's tool.</line>
@@ -54,7 +65,8 @@
             <line>And in Alabama in '85</line>
             <line>A joker was lucky</line>
             <line>To <changed from="stay" draft="1st">be</changed> alive.</line>
-            <line>But<removed said="old" draft="1st"/><booker>Booker T.</booker></line>
+            <line>But<changed from="old" removed="yes" draft="1st"/><booker>Booker
+                T.</booker></line>
             <line>Was nobody's fool:</line>
             <line>You may carve a dream</line>
             <line>With an humble tool.</line>
@@ -65,19 +77,23 @@
             <line>So, being a far-seeing</line>
         </poem>
     </original>
-    <metaWeb>Transcript Page 2 of 2 Education and Outreach Division</metaWeb>
+    <metadata>
+        <detail paper="Transcript"/>
+        <pageInfo currentPage="2" totalPage="2"/>
+        <division div="Education-and-Outreach"/>
+    </metadata>
     <original>
         <poem>
             <line>Practical man,</line>
             <line>He said, Train your head,</line>
-            <line>Your heart, <underlined lineAmnt="single">and your hand</underlined>.</line>
+            <line>Your heart, <underlined lineAmnt="single">and your hand.</underlined></line>
             <line>Your fate is here</line>
             <line>And not afar,</line>
             <line>
-                <said by="BookerTWashington">So let down your bucket</said>
+                <said by="Booker-T-Washington">So let down your bucket</said>
             </line>
             <line>
-                <said by="BookerTWashington">Where you are.</said>
+                <said by="Booker-T-Washington">Where you are.</said>
             </line>
         </poem>
         <footer>
@@ -85,11 +101,17 @@
             <line><obscured with="signature">Hollow Hills Farm</obscured>,</line>
             <line>Monterey, <obscured with="signature">C</obscured>alifornia,</line>
             <line>June 1, 1<obscured with="signature">9</obscured>41.</line>
-            <signature color="black" words="Langston Hughes" font="cursive" />
+            <signature color="black" words="Langston-Hughes" font="cursive"/>
         </footer>
     </original>
 
-    <metaWeb>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.
-        (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C.
-    </metaWeb>
+    <metadata>
+        <citation>Citation: Drafts of <author>Langston Hughes</author>'s poem "<title>Ballad of
+                Booker T</title>.,"</citation>
+        <date yyyy="1941" dd="30" mm="05"/>
+        <date yy="1941" dd="01" mm="06"/>
+        <collection>(<author>Langston Hughes</author> Collection)</collection>
+        <division div="manuscript"/>
+        <location state="Washignton-D.C" building="Library-of-Congress"/>
+    </metadata>
 </xml>
