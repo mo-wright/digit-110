@@ -1,0 +1,33 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = recipe
+recipe = element recipe {information*, original, additional*}
+
+information = element information {title, context}
+title = element title {text}
+context = element context {mixed{year*}}
+
+original = element original {step+}
+step = element step {mixed{quant*, type*, ing*}}
+
+quant = element quant {text}
+additional = element additional {section*, step*}
+type = attribute type {"optional"}
+section = element section {mixed{title & comment* & step* & listed? & newStep*}}
+comment = element comment {mixed{ing*}}
+listed = element listed {ingList+}
+
+ingList = element ingList {what, amnt, measure, state?, empty}
+what = attribute what {text}
+amnt = attribute amnt {xsd:decimal}
+measure = attribute measure {"lb" | "tsp" | "item"}
+state = attribute state {text}
+ing = element ing {mixed{quant*, elementState*}}
+elementState = element state {text}
+
+year = element year {xsd:gYear}
+bake = element bake {tempF, duration, timeframe, empty}
+tempF = attribute tempF{xsd:integer}
+duration = attribute duration {text}
+timeframe = attribute timeframe {"minutes" | "hours" |"seconds"}
+
+newStep = element newStep {mixed{ing* & elementState* & type* & quant* & comment* & bake?}}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="recipeSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<recipe>
+    <information>
+        <title>Shrewsbury Cakes: Original Recipe. </title>
+        <context> This recipe comes from MS Codex 625, a manuscript recipe book that belonged to a
+            student in a London cooking school in the early eighteenth century. The pastry school
+            was owned by Edward Kidder, who taught at a few locations in London between around <year>1720</year>
+            and <year>1734</year>. Blank books with printed title pages seem to have been used by students to
+            write down recipes they learned. Kidder also published his recipes in the printed
+            volume, Receipts for Pastry and Cookery, in <year>1720</year>. </context>
+    </information>
+
+    <original>
+        <step> Take <ing>
+                <quant>a pound</quant> of fresh butter </ing>
+            <ing>
+                <quant>a pound</quant> of <state>double refind</state> sugar <state>sifted fine
+                </state>
+            </ing>
+            <ing>
+                <quant>a little</quant>
+                <state>beaten</state> mace </ing>
+            <ing> &amp; <quant>4</quant> eggs </ing> beat them all together with. your hands till
+            tis very leight &amp; looks curdling </step>
+
+        <step> you put thereto <ing>
+                <quant>a pound &amp; 1/2</quant> of flower </ing> roul them out into little cakes
+        </step>
+    </original>
+
+    <additional>
+        <section>
+            <title>Our recipe </title>
+            <comment>(halved from the original)</comment>
+            <listed>
+                <ingList what="butter" amnt="1.5" measure="lb"/>
+                <ingList what="sugar" amnt="1.5" measure="lb" state="softened"/>
+                <ingList what="mace" amnt=".25" measure="tsp"/>
+                <ingList what="cinnamon" amnt=".5" measure="tsp"/>
+                <ingList what="eggs" amnt="2" measure="item"/>
+                <ingList what="flour" amnt=".75" measure="lb"/>
+            </listed>
+
+            <newStep>Using an electric mixer, cream together the <ing>butter</ing> and
+                <ing>sugar</ing>.</newStep>
+            <newStep>Then add the <ing>eggs</ing> and mix at medium speed until the mixture looks
+                    <state>curdled</state>.</newStep>
+            <newStep>Sift together dry ingredients and add at low speed until just
+                    <state>combined</state>.</newStep>
+            <newStep>Scoop and roll the <ing>dough</ing> by hand into <quant>1-tbsp</quant>. balls,
+                then pat <state>flat</state>.</newStep>
+            <newStep type="optional">[You could also refrigerate the dough until it’s firm enough to
+                roll out on a flat surface and cut out into rounds.]</newStep>
+
+
+            <newStep>
+                <bake tempF="350" duration="15 to 18" timeframe="minutes"/>
+                <comment>(ours were about 1/3″ thick, so you could roll them thinner and have a
+                    slightly shorter cooking time).</comment>
+            </newStep>
+            <comment>They’re done once they turn the slightest bit brown around the edges. This
+                halved recipe yielded about two dozen cookies.</comment>
+        </section>
+        <section>
+            <title>The Results </title>
+            <comment>If you like snickerdoodles (and who doesn’t?), you’d like these. We added the
+                    <ing>cinnamon</ing> because we like it and couldn’t resist, and we thought it
+                rounded out the <ing>mace</ing> nicely. These are mild, fairly soft cookies that are
+                great with tea. We rolled and patted the dough into individual cookies because it
+                was too soft and stick to roll out, but a little bit more <ing>flour</ing> and a
+                stint in the fridge might make the dough easier to work with a rolling
+                pin.</comment>
+        </section>
+    </additional>
+</recipe>
