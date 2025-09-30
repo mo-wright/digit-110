@@ -1,0 +1,29 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = xml
+xml = element xml {source, album+, additional?}
+
+source = element source {dLink & webName & pageTitle}
+webName = attribute webName {"Wikipedia" | "Genius"}
+pageTitle = attribute pageTitle {text}
+dLink = attribute dLink {xsd:anyURI}
+
+album = element album{title, released, formatList, sales}
+title = element title {text}
+
+released = element released {d, empty}
+d = attribute d {xsd:date}
+
+formatList = element formatList {format+}
+format = element format {"LP" | "2LPs" | "cassette" | "CD" | "DD" | "MD" | "digital download" | "DVD" | "2DVDs" | "box set" | "app" | "2CDs"}
+
+sales = element sales {worldwide?, country*, certifications}
+
+worldwide = element worldwide {xsd:integer}
+country = element country {id, xsd:integer}
+id = attribute id {text}
+certifications = element certifications {(countryCert* | "None")}
+
+countryCert = element country {id, multiplyer?, ("Platinum" | "Gold" |"Silver" | "Diamond")}
+multiplyer = attribute multiplyer {xsd:integer}
+
+additional = element additional {mixed{source}}

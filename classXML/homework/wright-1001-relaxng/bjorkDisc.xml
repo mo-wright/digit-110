@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bjorkRelax.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <source dLink="https://en.wikipedia.org/wiki/Bj%C3%B6rk_discography" webName="Wikipedia"
+        pageTitle="Björk Discography"/>
+
+    <album>
+        <title>Debut</title>
+        <released d="1993-06-05"/>
+        <formatList>
+            <format>LP</format>
+            <format>2LPs</format>
+            <format>cassette</format>
+            <format>CD</format>
+            <format>DD</format>
+            <format>MD</format>
+            <format>digital download</format>
+        </formatList>
+        <sales>
+            <worldwide>4700000</worldwide>
+            <country id="ICE">7000</country>
+            <country id="US"> 930000</country>
+            <country id="UK">600000 </country>
+            <certifications>
+                <country id="AUS">Platinum</country>
+                <country id="CAN">Gold</country>
+                <country id="SWE">Gold</country>
+                <country id="SWI">Gold</country>
+                <country id="UK" multiplyer="2">Platinum</country>
+                <country id="US">Platinum</country>
+            </certifications>
+        </sales>
+    </album>
+    <album>
+        <title>Post</title>
+        <released d="1995-06-12"/>
+        <formatList>
+            <format>LP</format>
+            <format>2LPs</format>
+            <format>cassette</format>
+            <format>CD</format>
+            <format>DD</format>
+            <format>MD</format>
+            <format>digital download</format>
+        </formatList>
+        <sales>
+            <worldwide>3000000</worldwide>
+            <country id="ICE">8333</country>
+            <country id="US">846000</country>
+            <country id="UK">400000 </country>
+            <certifications>
+                <country id="AUS">Platinum</country>
+                <country id="CAN">Platinum</country>
+                <country id="EU">Platinum</country>
+                <country id="SWE">Gold</country>
+                <country id="UK">Platinum</country>
+                <country id="US"> Platinum</country>
+            </certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Homogenic</title>
+        <released d="1997-09-22"/>
+        <formatList>
+            <format>LP</format>
+            <format>2LPs</format>
+            <format>cassette</format>
+            <format>CD</format>
+            <format>DD</format>
+            <format>MD</format>
+            <format>digital download</format>
+        </formatList>
+        <sales>
+            <country id="ICE">8000</country>
+            <country id="FRA">300000</country>
+            <country id="US">501000</country>
+            <country id="UL">216000</country>
+            <certifications>
+                <country id="CAN">Gold</country>
+                <country id="EU">Platinum</country>
+                <country id="SWI">Gold</country>
+                <country id="UK">Gold</country>
+                <country id="US">Gold</country>
+            </certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Vespertine</title>
+        <released d="2001-08-27"/>
+        <formatList>
+            <format>2LPs</format>
+            <format>cassette</format>
+            <format>CD</format>
+            <format>DD</format>
+            <format>DVD</format>
+            <format>digital download</format>
+        </formatList>
+        <sales>
+            <country id="US">402000</country>
+            <country id="FRA">169970</country>
+            <certifications>
+                <country id="CAN">Gold</country>
+                <country id="FRA">Gold</country>
+                <country id="SWI">Gold</country>
+                <country id="UK">Gold</country>
+            </certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Medúlla</title>
+        <released d="2004-08-30"/>
+        <formatList>
+            <format>2LPs</format>
+            <format>cassette</format>
+            <format>CD</format>
+            <format>DD</format>
+            <format>DVD</format>
+            <format>2DVDs</format>
+            <format>digital download</format>
+        </formatList>
+        <sales>
+            <country id="US">235000</country>
+            <country id="FRA">129916</country>
+            <certifications>
+                <country id="FRA">Gold</country>
+                <country id="UK"> Silver</country>
+            </certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Volta</title>
+        <released d="2007-05-07"/>
+        <formatList>
+            <format>2LPs</format>
+            <format>CD</format>
+            <format>DVD</format>
+            <format>digital download</format>
+            <format>cassette</format>
+        </formatList>
+        <sales>
+            <country id="US">132000</country>
+            <country id="UK">60606</country>
+            <certifications>
+                <country id="UK">Silver</country>
+            </certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Biophilia</title>
+        <released d="2011-10-05"/>
+        <formatList>
+            <format>2LPs</format>
+            <format>CD</format>
+            <format>2CDs</format>
+            <format>box set</format>
+            <format>digital download</format>
+            <format>app</format>
+            <format>cassette</format>
+        </formatList>
+        <sales>
+            <country id="US">51000</country>
+            <country id="FRA">15000</country>
+            <country id="UK">30000</country>
+            <certifications>None</certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Vulnicura</title>
+        <released d="2015-01-20"/>
+        <formatList>
+            <format>2LPs</format>
+            <format>CD</format>
+            <format>digital download</format>
+            <format>cassette</format>
+        </formatList>
+        <sales>
+            <country id="US">23000</country>
+            <certifications>None</certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Utopia</title>
+        <released d="2017-11-24"/>
+        <formatList>
+            <format>LP</format>
+            <format>CD</format>
+            <format>digital download</format>
+            <format>cassette</format>
+            <format>box set</format>
+        </formatList>
+        <sales>
+            <country id="UK">7989</country>
+            <certifications>None</certifications>
+        </sales>
+    </album>
+
+    <album>
+        <title>Fossora</title>
+        <released d="2022-09-30"/>
+        <formatList>
+            <format>2LPs</format>
+            <format>CD</format>
+            <format>digital download</format>
+            <format>cassette</format>
+        </formatList>
+        <sales>
+            <certifications>None</certifications>
+        </sales>
+    </album>
+
+    <additional> Video Albums <source
+            dLink="https://en.wikipedia.org/wiki/Bj%C3%B6rk_videography#Video_albums"
+            pageTitle="Björk Videography" webName="Wikipedia"/>
+    </additional>
+</xml>
